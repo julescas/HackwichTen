@@ -9,13 +9,15 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var countriesToVisit = [ "Greece", "Italy", "Japan", "Sweden", "Netherlands"]
+    var myFriendsArray = [ "Beth", "Jordan", "Christian"]
+    
+    var friendsHomeArray = [ "Wailuku", "Wailuku", "San Francisco"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
       
-        return countriesToVisit.count
-        
+        return myFriendsArray.count
+                
       
     }
     
@@ -23,9 +25,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")
         
-        let text = countriesToVisit[indexPath.row]
+        let text = myFriendsArray[indexPath.row]
         
         cell?.textLabel?.text = text
+        
+        cell?.detailTextLabel?.text = friendsHomeArray[indexPath.row]
         
         return cell!
     }
