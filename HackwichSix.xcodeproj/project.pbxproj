@@ -16,6 +16,8 @@
 		1022C03E2901036E00D5DF2F /* HackwichSixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022C03D2901036E00D5DF2F /* HackwichSixTests.swift */; };
 		1022C0482901036E00D5DF2F /* HackwichSixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022C0472901036E00D5DF2F /* HackwichSixUITests.swift */; };
 		1022C04A2901036E00D5DF2F /* HackwichSixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1022C0492901036E00D5DF2F /* HackwichSixUITestsLaunchTests.swift */; };
+		10BC87BF29138DCC00AA9D1D /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10BC87BE29138DCC00AA9D1D /* Property List.plist */; };
+		10BC87C32913923E00AA9D1D /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BC87C22913923E00AA9D1D /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1022C0432901036E00D5DF2F /* HackwichSixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichSixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1022C0472901036E00D5DF2F /* HackwichSixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichSixUITests.swift; sourceTree = "<group>"; };
 		1022C0492901036E00D5DF2F /* HackwichSixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichSixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10BC87BE29138DCC00AA9D1D /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		10BC87C22913923E00AA9D1D /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +106,10 @@
 				1022C0262901036C00D5DF2F /* AppDelegate.swift */,
 				1022C0282901036C00D5DF2F /* SceneDelegate.swift */,
 				1022C02A2901036C00D5DF2F /* ViewController.swift */,
+				10BC87C22913923E00AA9D1D /* detailViewController.swift */,
 				1022C02C2901036C00D5DF2F /* Main.storyboard */,
 				1022C02F2901036E00D5DF2F /* Assets.xcassets */,
+				10BC87BE29138DCC00AA9D1D /* Property List.plist */,
 				1022C0312901036E00D5DF2F /* LaunchScreen.storyboard */,
 				1022C0342901036E00D5DF2F /* Info.plist */,
 			);
@@ -233,6 +239,7 @@
 			files = (
 				1022C0332901036E00D5DF2F /* LaunchScreen.storyboard in Resources */,
 				1022C0302901036E00D5DF2F /* Assets.xcassets in Resources */,
+				10BC87BF29138DCC00AA9D1D /* Property List.plist in Resources */,
 				1022C02E2901036C00D5DF2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 				1022C02B2901036C00D5DF2F /* ViewController.swift in Sources */,
 				1022C0272901036C00D5DF2F /* AppDelegate.swift in Sources */,
 				1022C0292901036C00D5DF2F /* SceneDelegate.swift in Sources */,
+				10BC87C32913923E00AA9D1D /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
